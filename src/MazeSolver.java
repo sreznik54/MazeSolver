@@ -92,8 +92,8 @@ public class MazeSolver {
             }
 
         }
+        // Returns the solution found by DFS
         return getSolution();
-
     }
 
     /**
@@ -139,6 +139,7 @@ public class MazeSolver {
             }
 
         }
+        // Returns the solution found by BFS
         return getSolution();
     }
 
